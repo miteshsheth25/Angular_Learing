@@ -28,5 +28,4 @@ export class ProductSectionComponent implements OnInit {
     { id: 12, title: 'Card 12', description: 'This is the twelfth card.', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Gfp-wisconsin-madison-the-nature-boardwalk.jpg/2560px-Gfp-wisconsin-madison-the-nature-boardwalk.jpg' },
     { id: 13, title: 'Card 13', description: 'This is the thirteenth card.', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Gfp-wisconsin-madison-the-nature-boardwalk.jpg/2560px-Gfp-wisconsin-madison-the-nature-boardwalk.jpg' }
 ];
-
 }
