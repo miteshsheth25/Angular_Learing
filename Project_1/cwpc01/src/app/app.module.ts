@@ -12,6 +12,8 @@ import { GridListExampleComponent } from './grid-list-example/grid-list-example.
 import {MatButtonModule} from '@angular/material/button';
 import { UserFormComponent } from './user-form/user-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ListTodoComponent } from './list-todo/list-todo.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -21,6 +23,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProductSectionComponent,
     GridListExampleComponent,
     UserFormComponent,
+    ListTodoComponent,
     
   ],
   imports: [
@@ -31,7 +34,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatGridListModule,
     MatButtonModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
